@@ -26,6 +26,7 @@ translate-jit: bf-c
 
 bf-c: $(PYFILES)
 	$(RUNINTERP) $(RPYTHON) $(WITH_JIT) targetbf.py
+	mv targetbf-c bf-c
 
 debug: $(PYFILES)
 	$(RUNINTERP) $(RPYTHON) $(WITH_JIT) --lldebug targetbf.py

@@ -1,11 +1,3 @@
-"""
-PyPy tutorial by Andrew Brown
-example5.py - BF interpreter in RPython, translatable by PyPy, with JIT, and
-              with a get_printable_location function and pure function wrapper
-              for the dictionary lookup.
-
-"""
-
 import os
 import sys
 

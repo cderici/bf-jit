@@ -1,0 +1,5 @@
+This is a brainfuck interpreter in rpython to experiment on optimizations.
+
+Basically I'll try to make this go faster.
+
+This is initialized with PyPy tutorial by Andrew Brown, BF interpreter in RPython, translatable by PyPy, with JIT, and with a get_printable_location function and pure function wrapper for the dictionary lookup.
